@@ -7,18 +7,18 @@ import gameEngine.Moveable;
 
 public class LevelSetup {
 	
+	Drawable[] board;
+	
 	public LevelSetup() {
 		
 	}
 
 	public void createLevel(int nLevel) {
-		// TODO Auto-generated method stub
-		
+		board = new Drawable[nLevel];
 	}
 
 	public Drawable[] getBoard() {
-		// TODO Auto-generated method stub
-		return null;
+		return board;
 	}
 
 	public ArrayList<Moveable> getMovingPieces() {
